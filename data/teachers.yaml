@@ -1,5 +1,5 @@
 - id: teacher-1
-  name: "Teacher-1"
+  name: "teacher-1"
   designation: "Assistant Professor"
   department: "Computer Science"
   qualification: "M.Tech"
@@ -10,7 +10,7 @@
   address: "Satellite, Ahmedabad, Gujarat"
 
 - id: teacher-2
-  name: "Teacher-2"
+  name: "teacher-2"
   designation: "Associate Professor"
   department: "Electronics"
   qualification: "Ph.D."
@@ -21,7 +21,7 @@
   address: "Powai, Mumbai, Maharashtra"
 
 - id: teacher-3
-  name: "Teacher-3"
+  name: "teacher-3"
   designation: "Lecturer"
   department: "Information Technology"
   qualification: "M.Tech"
@@ -32,7 +32,7 @@
   address: "BTM Layout, Bengaluru, Karnataka"
 
 - id: teacher-4
-  name: "Teacher-4"
+  name: "teacher-4"
   designation: "Professor"
   department: "Civil Engineering"
   qualification: "Ph.D."
@@ -43,7 +43,7 @@
   address: "Dwarka, Delhi"
 
 - id: teacher-5
-  name: "Teacher-5"
+  name: "teacher-5"
   designation: "Assistant Professor"
   department: "Artificial Intelligence"
   qualification: "M.Tech"

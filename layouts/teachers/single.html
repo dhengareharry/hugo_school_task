@@ -4,14 +4,20 @@
 {{ if $teacher }}
   {{ with index $teacher 0 }}
     <section>
-      <h1>{{ .name | default "Teacher not found" }}</h1>
+      {{ if findRE "teacher" .name }}
+        {{ $parts := split .name "-" }}
+        {{ $number := index $parts 1 | default "" }}
+        <h1>{{ printf "Teacher-%s" $number | default "Teacher not found" }}</h1>
+      {{ else }}
+        <h1>{{ .name | default "Not found" }}</h1>
+      {{ end }}
       <ul>
         <li><b>designation:</b> {{ .designation | default "" }}</li>
         <li><b>department:</b> {{ .department | default "" }}</li>
         <li><b>qualification:</b> {{ .qualification | default "" }}</li>
         <li><b>experience:</b> {{ .experience | default "" }}</li>
         <li><b>joining year:</b> {{ .joining_year | default "" }}</li>
-        <li><b>age:</b> {{.age | default ""}}</li>
+        <li><b>age:</b> {{ .age | default "" }}</li>
         <li><b>country:</b> {{ .country | default "" }}</li>
         <li><b>address:</b> {{ .address | default "" }}</li>
       </ul>
