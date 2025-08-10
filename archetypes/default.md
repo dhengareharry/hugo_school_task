@@ -1,0 +1,1 @@
++++date = '{{ .Date }}'draft = truetitle = '{{ replace .File.ContentBaseName "-" " " | title }}'+++

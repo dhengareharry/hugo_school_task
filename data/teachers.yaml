@@ -1,0 +1,54 @@
+- id: teacher-1
+  name: "Teacher-1"
+  designation: "Assistant Professor"
+  department: "Computer Science"
+  qualification: "M.Tech"
+  experience: 7 years
+  age: 35
+  joining_year: 2018
+  country: "Indian"
+  address: "Satellite, Ahmedabad, Gujarat"
+
+- id: teacher-2
+  name: "Teacher-2"
+  designation: "Associate Professor"
+  department: "Electronics"
+  qualification: "Ph.D."
+  experience: 12 years
+  joining_year: 2016
+  age: 42
+  country: "Indian"
+  address: "Powai, Mumbai, Maharashtra"
+
+- id: teacher-3
+  name: "Teacher-3"
+  designation: "Lecturer"
+  department: "Information Technology"
+  qualification: "M.Tech"
+  experience: 5 years
+  joining_year: 2020
+  age: 29
+  country: "Indian"
+  address: "BTM Layout, Bengaluru, Karnataka"
+
+- id: teacher-4
+  name: "Teacher-4"
+  designation: "Professor"
+  department: "Civil Engineering"
+  qualification: "Ph.D."
+  experience: 18 years
+  joining_year: 2015
+  age: 48
+  country: "Indian"
+  address: "Dwarka, Delhi"
+
+- id: teacher-5
+  name: "Teacher-5"
+  designation: "Assistant Professor"
+  department: "Artificial Intelligence"
+  qualification: "M.Tech"
+  experience: 6 years
+  joining_year: 2019
+  age: 33
+  country: "Indian"
+  address: "Maninagar, Ahmedabad, Gujarat"

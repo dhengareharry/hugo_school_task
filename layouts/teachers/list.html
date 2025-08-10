@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section>
+  <h1>Teachers</h1>
+  {{ range site.Data.teachers }}
+    <div>
+      <h2><a href="/teachers/{{ .id }}/">{{ .name }}</a></h2>
+      <ul>
+        <li><strong>designation:</strong> {{ .designation }}</li>
+        <li><strong>department:</strong> {{ .department }}</li>
+        <li><strong>qualification:</strong> {{ .qualification }}</li>
+        <li><strong>joining year:</strong> {{ .joining_year }}</li>
+      </ul>
+    </div>
+  {{ end }}
+</section>
+{{ end }}

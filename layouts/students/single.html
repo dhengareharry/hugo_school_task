@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ $id := .File.ContentBaseName }}
+{{ $student := first 1 (where site.Data.students "id" $id) }}
+{{ if $student }}
+  {{ with index $student 0 }}
+    <section>
+      <h1>{{ .name | default "Student not found" }}</h1>
+      <ul>
+        <li><strong>course:</strong> {{ .course | default "" }}</li>
+        <li><strong>branch:</strong> {{ .branch | default "" }}</li>
+        <li><strong>country:</strong> {{ .country | default "" }}</li>
+        <li><strong>current-semester:</strong> {{ .current_semester | default "" }}</li>
+        <li><strong>cgpa:</strong> {{ .cgpa | default "" }}</li>
+        <li><strong>admission year:</strong> {{ .admission_year | default "" }}</li>
+        <li><strong>address:</strong> {{ .address | default "" }}</li>
+        <li><strong>state:</strong> {{ .state | default "" }}</li>
+      </ul>
+    </section>
+  {{ else }}
+    <p>Student data not available.</p>
+  {{ end }}
+{{ else }}
+  <p>Student not found.</p>
+{{ end }}
+{{ end }}

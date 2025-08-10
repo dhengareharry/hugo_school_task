@@ -1,0 +1,119 @@
+- id: student-1
+  name: "student-1"
+  course: "B.Tech"
+  branch: "Computer Science"
+  age: 21
+  admission_year: 2023
+  country: "Indian"
+  current_semester: 4
+  cgpa: 8.9
+  address: "Ahmedabad, Gujarat"
+  state: "Gujarat"
+
+- id: student-2
+  name: "student-2"
+  course: "B.Tech"
+  branch: "Electronics"
+  age: 20
+  admission_year: 2023
+  country: "Indian"
+  current_semester: 4
+  cgpa: 9.1
+  address: "Ahmedabad, Gujarat"
+  state: "Gujarat"
+
+- id: student-3
+  name: "student-3"
+  course: "B.Tech"
+  branch: "Mechanical"
+  age: 22
+  admission_year: 2023
+  country: "Indian"
+  current_semester: 4
+  cgpa: 8.3
+  address: "Bengaluru, Karnataka"
+  state: "Karnataka"
+
+- id: student-4
+  name: "student-4"
+  course: "B.Tech"
+  branch: "Information Technology"
+  age: 20
+  admission_year: 2023
+  country: "Indian"
+  current_semester: 4
+  cgpa: 8.6
+  address: "Ahmedabad, Gujarat"
+  state: "Gujarat"
+
+- id: student-5
+  name: "student-5"
+  course: "B.Tech"
+  branch: "Civil Engineering"
+  age: 21
+  admission_year: 2023
+  country: "Indian"
+  current_semester: 4
+  cgpa: 7.9
+  address: "Dwarka, Delhi"
+  state: "Delhi"
+
+- id: student-6
+  name: "student-6"
+  course: "B.Tech"
+  branch: "Electrical"
+  age: 22
+  admission_year: 2023
+  country: "Indian"
+  current_semester: 4
+  cgpa: 8.8
+  address: "Pune, Maharashtra"
+  state: "Maharashtra"
+
+- id: student-7
+  name: "student-7"
+  course: "B.Tech"
+  branch: "Computer Science"
+  age: 20
+  admission_year: 2023
+  country: "Indian"
+  current_semester: 4
+  cgpa: 9.3
+  address: "Ahmedabad, Gujarat"
+  state: "Gujarat"
+
+- id: student-8
+  name: "student-8"
+  course: "B.Tech"
+  branch: "Artificial Intelligence"
+  age: 21
+  admission_year: 2023
+  country: "Indian"
+  current_semester: 4
+  cgpa: 9
+  address: "Borivali, Mumbai, Maharashtra"
+  state: "Maharashtra"
+
+- id: student-9
+  name: "student-9"
+  course: "B.Tech"
+  branch: "Electronics and Communication"
+  age: 21
+  admission_year: 2023
+  country: "Indian"
+  current_semester: 4
+  cgpa: 8.4
+  address: "Bengaluru, Karnataka"
+  state: "Karnataka"
+
+- id: student-10
+  name: "student-10"
+  course: "B.Tech"
+  branch: "Data Science"
+  age: 20
+  admission_year: 2023
+  country: "Indian"
+  current_semester: 4
+  cgpa: 9.2
+  address: "Rohini, Delhi"
+  state: "Delhi"

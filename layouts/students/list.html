@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section>
+  <h1>Students</h1>
+  {{ range site.Data.students }}
+    <div>
+      <h2><a href="/students/{{ .id }}/">{{ .name }}</a></h2>
+      <ul>
+        <li><strong>course:</strong> {{ .course }}</li>
+        <li><strong>branch:</strong> {{ .branch }}</li>
+        <li><strong>age:</strong> {{ .age }}</li>
+        <li><strong>admission year:</strong> {{ .admission_year }}</li>
+      </ul>
+    </div>
+  {{ end }}
+</section>
+{{ end }}
